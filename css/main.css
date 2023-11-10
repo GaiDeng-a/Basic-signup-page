@@ -1,0 +1,45 @@
+body{
+  padding: 0% 10%;
+  background-image: url("back.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.head{
+  background-color: #000; 
+  height: 100%;
+  display:flex; 
+  flex-direction: row; 
+  /* flex-wrap: wrap;  */
+  justify-content: flex-start; 
+  align-content: stretch; 
+  align-items: stretch;
+}
+
+.flex-item{
+  background-color: #ccf; 
+  margin: 0.1em; 
+  flex-grow: 7; 
+  flex-shrink: 0;
+
+  color: rgb(49, 40, 232);
+}
+
+p{
+  padding: 20px;
+  color: beige;
+  font-family: "consolas";
+  font-style: italic;
+  font-weight: bold;
+  /* border-style: groove; */
+  border-radius: 50px;
+
+  background: linear-gradient(to right, rgb(88, 181, 218),rgb(151, 65, 65),rgb(158, 158, 10));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
