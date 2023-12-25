@@ -9,8 +9,7 @@ body{
 
 
 
-.head{
-  background-color: #000; 
+.head{ 
   height: 100%;
   display:flex; 
   flex-direction: row; 
@@ -18,10 +17,12 @@ body{
   justify-content: flex-start; 
   align-content: stretch; 
   align-items: stretch;
+  gap: 60%;
 }
 
 .flex-item{
-  background-color: #ccf; 
+  padding: 0;
+ 
   margin: 0.1em; 
   flex-grow: 7; 
   flex-shrink: 0;
